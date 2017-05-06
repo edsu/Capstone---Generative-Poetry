@@ -1,5 +1,3 @@
-var pronouncing = require('pronouncing');
-
 function displayPoem() {
   alert(writePoem());
 }
@@ -46,5 +44,6 @@ function writePoem(){
 	}
 	return phones; 
 }
+
 displayPoem();	
 
